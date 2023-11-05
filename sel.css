@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, sans-serif;
+}
+.head {
+  margin-top: 25px;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  text-align: center;
+  font-size: 35px;
+  background-color: #dd7717;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-weight: bolder;
+  <img src="Logo.jpg" width="50" height="50">
+}
+.data-container {
+  width: 600px;
+  height: 384px;
+  position: relative;
+  margin: 0 auto;
+}
+.bar {
+  width: 28px;
+  position: absolute;
+  top: 100px;
+  left: 190px;
+  background-color: rgb(131, 200, 228);
+  text-align: center;
+  transition: 0.2s all ease;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.bar__id {
+  position: absolute;
+  top: -24px;
+  /* Pixels (px) are relative to the viewing device. For low-dpi devices, 1px is one device pixel (dot) of the display. */
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.btn1 {
+  display: block;
+  padding: 12px;
+  font-weight: bolder;
+  background-color: #dd7717;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: white;
+  margin-left: 43.5vw;
+  /* vh & vw. vh stands for viewport height and vw is for viewport width. Hence, setting an element to a width value of 50vw means that the element will have a width that's 50% of the viewport size, and this stays true when the viewport is resized. */
+  margin-top: 0.0000011vw;
+  margin-right: 1vw;
+}
+.btn2 {
+  display: block;
+  padding: 12px;
+  font-weight: bolder;
+  background-color: #dd7717;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: white;
+  margin-left: 43.5vw;
+  margin-top: 0.6vw;
+}
